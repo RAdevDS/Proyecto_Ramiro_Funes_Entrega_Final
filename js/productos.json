@@ -1,0 +1,58 @@
+[{
+    
+      "id": 1,
+      "imagen": "./imagenes/gpunvidia.jpg",
+      "nombre": "Nvidia EVGA 3070 TI",
+      "descripcion": "Nvidia EVGA 3070 TI 8 GB",
+      "precio": 800
+    },
+    {
+      "id": 2,
+      "imagen": "./imagenes/fuentexfx1000gq.jpg",
+      "nombre": "XFX 1000-GQ ",
+      "descripcion": "Fuente 1000W Modular",
+      "precio": 250
+    },
+    {
+      "id": 3,
+      "imagen": "./imagenes/corsairvengeance16gb.jpg",
+      "nombre": "CORSAIR VENGEANCE 16 GB",
+      "descripcion": "Memoria RAM Corsair 16gb",
+      "precio": 100
+    },
+    {
+      "id": 4,
+      "imagen": "./imagenes/gabinetelevelup.jpg",
+      "nombre": "GABINETE GAMER LEVEL UP",
+      "descripcion": "Gabinete Gamer Level UP ATX",
+      "precio": 80
+    },
+    {
+      "id": 5,
+      "imagen": "./imagenes/gpuradeon.jpg",
+      "nombre": "AMD RADEON RX 5700XT",
+      "descripcion": "AMD Radeon RX 5700XT 8 GB",
+      "precio": 500
+    },
+    {
+      "id": 6,
+      "imagen": "./imagenes/MothAsusb550.jpg",
+      "nombre": "ASUS ROG STRIX B550",
+      "descripcion": "Motherboard ASUS ROG STRIX B550",
+      "precio": 400
+    },
+    {
+      "id": 7,
+      "imagen": "./imagenes/tecladogamerrazer.jpg",
+      "nombre": "TECLADO RAZER HUNTSMAN V2",
+      "descripcion": "Teclado Gamer Mecanico RAZER",
+      "precio": 100
+    },
+    {
+      "id": 8,
+      "imagen": "./imagenes/IntelI5.jpg",
+      "nombre": "Intel I5",
+      "descripcion": "Micro procesador Intel I5 12ava generacion",
+      "precio": 350
+    }
+  ]

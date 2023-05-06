@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>D⭐️STEch - Tienda de informatica</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">Bienvenidos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Tienda</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="warehouse.html">Warehouse</a></li>
+              
+                    </ul>
+                        <a href="#checkout">
+                            <button class="btn btn-outline-dark" type="submit">
+                              <i class="bi-cart-fill me-1"></i>
+                              Carrito
+                              <span id="cart-count" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </button>
+                        </a>
+                                      
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder" >D⭐️S - TEch</h1>
+                    <p class="lead fw-normal text-white mb-0">Soluciones informaticas</p>
+                </div><br><br>
+                <div id="panel_header"></div>
+            </div>
+            
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"  id="misprods">
+                
+            </div>
+        </div>
+        </div>
+            
+                  
+        </section>   
+
+                <h4>Tu carrito:</h4>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tablabody">
+                    <!-- aqui tabla carrito -->
+                  </tbody>
+                </table>
+                <h4 id="total">Total a pagar $:</h4>
+              </div>
+            </div>
+            
+            <form action="#" id="checkout">
+                <button type="submit" class="btn btn-success">Finalizar compra</button>
+
+            </form>
+                
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; D⭐️STEch 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+         <!-- Sweet alert JS-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="./js/productos.json"></script>
+    </body>
+</html>
